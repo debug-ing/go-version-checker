@@ -1,0 +1,13 @@
+name: "Go Version Checker"
+description: "Prints the Go version specified in the project's go.mod file"
+inputs:
+  path:
+    description: "Path to the project folder containing go.mod"
+    required: false
+    default: "."
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "go"
+  color: "blue"
