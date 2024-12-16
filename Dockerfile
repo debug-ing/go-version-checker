@@ -6,4 +6,6 @@ COPY . .
 
 RUN go build main.go
 
+RUN ls
+
 ENTRYPOINT ["/main"]
