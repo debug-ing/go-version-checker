@@ -6,6 +6,6 @@ COPY . .
 
 RUN go build -o main main.go
 
-RUN ls -l
+RUN ls -l /app
 
-ENTRYPOINT ["./main"]
+ENTRYPOINT ["/app/main"]
