@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN go build -o /main
+RUN go build main.go
 
 ENTRYPOINT ["/main"]

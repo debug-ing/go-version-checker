@@ -23,5 +23,6 @@ func main() {
 			return
 		}
 	}
+
 	fmt.Println("No Go version found in go.mod")
 }
